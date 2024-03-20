@@ -20,14 +20,16 @@
 
   <h1>{{ title }}</h1>
 
-  <h2>{{ subtitle }}</h2>
+  <h2 class="s_title">{{ subtitle }}</h2>
 
   <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, doloribus facere, magni perspiciatis libero voluptatum ab asperiores aliquam illum inventore saepe! Ducimus tempore doloribus maxime quo facere. Magnam, eos provident.</p>
 
 </template>
 
-<style>
+<style scoped>
 
-  
+  .s_title{
+    color: red;
+  }  
 
 </style>
