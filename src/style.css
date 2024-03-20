@@ -58,6 +58,12 @@ button:focus-visible {
   padding: 2em;
 }
 
+.paragrafo {
+  color: yellow;
+  border: solid 2px;
+  border-color:palevioletred;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
